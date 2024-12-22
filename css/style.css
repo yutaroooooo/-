@@ -1,0 +1,1032 @@
+@charset "UTF-8";
+
+/* 共通部分
+----------------------------------------------------*/
+html {
+    font-size: 85%;
+}
+body {
+    font-size: 14px;
+    font-weight: normal;
+    background-color: #fff;
+    font-family: 'Arial', 'YuGothic', 'Yu Gothic', '游ゴシック', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', 'Meiryo', serif;
+    line-height: 1.5em;
+    width: 100%;
+}
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+li {
+    list-style: none;
+}
+
+#main {
+	background: #FFF;
+	position: relative;
+	z-index: 2;
+	margin-bottom: 530px;
+}
+/* HEADER
+----------------------------------------------------*/
+.logo {
+    width: 180px;
+	display: block;
+	margin: 0 auto;
+	position: absolute;
+	top: 0px;
+	left: 50%;
+    margin-top: -20px;
+	margin-left: 180px;
+}
+.logo {
+    position: inherit;
+}
+
+div {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 0;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+#header {
+    padding: 20px 0 0;
+    display: block;
+    unicode-bidi: isolate;
+    background: #FFF;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 999;
+}
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+
+/* ナビゲーションメニュー
+----------------------------------------------------*/
+.btn { display: none;}
+
+.main-nav {
+	float: right;
+	display: block;
+    justify-content: flex-end;
+    margin-right: 100px;
+    margin-top: -50px;
+
+}
+
+.main-nav ul {
+	display: table;
+}
+.main-nav ul li {
+	display: table-cell;
+	margin: 0 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+	border-bottom: none;
+}
+.main-nav ul li a {
+    display: block;
+    font-weight: bold;
+    color: #000;
+    line-height: 20px;
+    padding: 0;
+    background: #fff;
+    position: relative;
+}
+
+
+#nav a {
+    text-decoration: none;
+    }
+    
+#nav a:hover {
+    border-bottom: solid 3px #ffff00;
+    border-bottom:80%;
+    }
+
+    
+
+/* ここまで
+----------------------------------------------------*/
+
+.wrapper {
+    max-width: 1440px;
+    margin: 0 ;
+    padding: 0 ;
+}
+
+.container {
+    padding: 0 ;
+}
+
+/* images
+----------------------------------------------------*/
+#top-page {
+    background: url(/Users/Nucky/Desktop/札友電材株式会社/img/layer01.png) center top no-repeat;
+	background-size: 100%;
+	background-color: #FFF;
+	padding: 400px 0px 10px 0px;
+	position: relative;
+	z-index: 2;
+}
+
+#layer02 {
+	text-align: center;
+	margin-bottom: 100px;
+}
+#layer03 {
+	width: 60px;
+	height: 60px;
+	margin: 0 auto 40px auto;
+}
+#layer04 {
+    text-align: center;
+	font-size: 15px;
+	letter-spacing: 0.25em;
+	line-height: 2.2;
+}
+/*layer text
+-----------------------------*/
+
+#top-page p {
+    font-weight: bold;
+    color: #000;
+}
+
+#layer04 {
+    margin: 20px;
+}
+
+/*corporate section
+-----------------------------*/
+#main p {
+    color: #fff;
+}
+
+#corporate {
+    background: #fff;
+    position: relative;
+    z-index: 2;
+    padding-bottom: 120px;
+    overflow: hidden;
+    padding-top: 150px;
+    padding-bottom: 80px;
+    box-sizing: border-box;
+}
+
+.light01 {
+    width: 30px;
+    height: 140px;
+    background: url(/Users/Nucky/Desktop/札友電材株式会社/img/light01.png) 0 0 ;
+    background-size: contain;
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    margin-left: -15px;
+    z-index: 2;
+}
+
+#corporate .container {
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+.front {
+    position: relative;
+    z-index: 2;
+}
+
+.container {
+    padding: 0 20px;
+}
+
+.ttl {position: relative;z-index: 3;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+
+img {
+    border: 0;
+    vertical-align: bottom;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+#corporate .row {position: relative;z-index: 3;
+    width: 100%;
+    vertical-align: top;
+    text-align: center;
+    overflow: hidden;
+	margin-bottom: 60px;
+}
+
+#corporate .box {position: relative;z-index: 3;
+    max-width: 390px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 60px;
+    color: #FFF;
+    text-align: center;
+    line-height: 2;
+    margin-bottom: 60px;
+}
+
+
+
+#corporate figure {
+    width: 100%;
+    display: block;
+    margin: 0;
+}
+
+#corporate figure {
+    text-align: center;
+}
+
+figure {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+    unicode-bidi: isolate;
+}
+
+#corporate figure img {
+    width: 100%;
+    vertical-align: top;
+    max-width: 180px;
+}
+
+#corporate .box p {
+    font-weight: normal;
+    font-size: 20px;
+    letter-spacing: 0.4em;
+}
+
+/*アニメーション swing
+-----------------------------*/
+
+
+
+  
+  @keyframes swing {
+    20% {
+      -webkit-transform: rotate(15deg);
+      -ms-transform: rotate(15deg);
+      transform: rotate(15deg);
+    }
+  
+    40% {
+      -webkit-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+      transform: rotate(-10deg);
+    }
+  
+    60% {
+      -webkit-transform: rotate(5deg);
+      -ms-transform: rotate(5deg);
+      transform: rotate(5deg);
+    }
+  
+    80% {
+      -webkit-transform: rotate(-5deg);
+      -ms-transform: rotate(-5deg);
+      transform: rotate(-5deg);
+    }
+  
+    100% {
+      -webkit-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+  }
+  
+  .swing {
+    -moz-animation: swing linear 1s;
+    -moz-transform-origin: center;
+    -webkit-animation: swing linear 1s;
+    -webkit-transform-origin: center;
+    -ms-animation: swing linear 1s;
+    -ms-transform-origin: center;
+    -o-animation: swing linear 1s;
+    -o-transform-origin:center;
+    animation: swing linear 1s;
+    transform-origin: center;
+    display: block;
+    float:left;
+  }
+
+/*アニメーション rotatein
+-----------------------------*/
+
+
+.rotateIn{
+    animation:rotateIn 1s ease  1s 1 normal backwards;
+  }
+  @keyframes rotateIn{
+    0% {
+        -webkit-transform-origin: center center;
+        -ms-transform-origin: center center;
+        transform-origin: center center;
+        -webkit-transform: rotate(-200deg);
+        -ms-transform: rotate(-200deg);
+        transform: rotate(-200deg);
+        opacity: 0;
+      }
+    
+      100% {
+        -webkit-transform-origin: center center;
+        -ms-transform-origin: center center;
+        transform-origin: center center;
+        -webkit-transform: rotate(0);
+        -ms-transform: rotate(0);
+        transform: rotate(0);
+        opacity: 1;
+      }
+  }
+
+/*アニメーション fadeinup
+-----------------------------*/
+@keyframes fadeInUp{
+    0% {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+  
+  .fadeInUp {
+    animation: fadeInUp 2s linear;
+}
+
+/*アニメーション fadein
+-----------------------------*/
+.fadeIn {
+    padding: 10px;
+    animation: fadeIn 3s ease 1s 1 normal backwards;
+  }
+   
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateX(0);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+/*会社概要
+-----------------------------*/
+#compliance {
+    background: #5e7a8f;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    box-sizing: border-box;
+}
+
+#compliance {
+    font-size: 16px;
+    letter-spacing: 0.05em;
+}
+
+#compliance h3 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.light02 {
+    width: 30px;
+    height: 140px;
+    background: url(/Users/Nucky/Desktop/札友電材株式会社/img/light02.png) 0 0 ;
+    background-size: contain;
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    margin-left: -15px;
+    z-index: 2;
+}
+#compliance .container {
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+.front {
+    position: relative;
+    z-index: 2;
+}
+
+.container {
+    padding: 0 20px;
+}
+
+.ttl {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+#compliance .box {
+    max-width: 480px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 300px;
+    color: #5e7a8f;
+    text-align: center;
+    line-height: 2;
+    margin-bottom: 60px;
+}
+
+#compliance .box p {
+    color: #5e7a8f;
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+}
+
+#compliance .tableStyle01 {
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+#compliance .tableStyle01 dt {
+    font-weight: normal;
+    float: left;
+}
+
+.dt {
+    height: 22px;
+    width: 59px;
+    display: block;
+    unicode-bidi: isolate;
+}
+
+#compliance .tableStyle01 dd {
+    font-weight: normal;
+    text-align: left;
+    padding-left: 100px;
+}
+
+.dd {
+    font-weight: normal;
+    display: block;
+    margin-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+
+/*関連企業
+-----------------------------*/
+
+#compliance {
+	font-size: 16px;
+	letter-spacing: 0.05em;
+    font-weight: normal;
+}
+#compliance .container {
+	max-width: 980px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+#compliance h3 img {
+	max-width: 100%;
+}
+
+#compliance .tableStyle01 dd {
+	padding-left: 100px;
+}
+#compliance .row {
+    color: #5e7a8f;
+	overflow: hidden;
+	margin-bottom: 60px;
+}
+
+
+#compliance .box {
+	max-width: 450px;
+	margin: 0 auto;
+}
+#compliance .profile { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+#compliance .group { 
+    float: left; margin: 0 auto;
+}
+#compliance .chart { 
+    float: right; margin: 0 auto; 
+}
+#compliance .name {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 10px;
+    letter-spacing: 0.05em;
+}
+.btnArea {
+    text-align: center;
+    padding-top: 60px;
+}
+.btnStyle01 {
+    width: 280px;
+    font-size: 16px;
+    line-height: 40px;
+    color: #FFF;
+    border: 2px solid #5e7a8f;
+    background: #5e7a8f;
+    display: inline-block;
+    text-align: center;
+    transition: all .25s linear;
+}
+/*取り扱いメーカー
+-----------------------------*/
+#maker {
+	position: relative;
+	overflow: hidden;
+	padding-top: 150px;
+	padding-bottom: 80px;
+    background-color: #fff;
+}
+
+#maker .container {
+    max-width: 700px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+
+#maker li {
+	color: #FFF;
+	line-height: 2em;
+	text-align: center;
+}
+
+#maker .row {
+	overflow: hidden;
+}
+#maker .left {
+	max-width: 400px;
+	float: left;
+}
+#maker .right {
+	max-width: 400px;
+	float: right;
+}
+
+/*取扱製品
+-----------------------------*/
+#products {
+    position: relative;
+	overflow: hidden;
+    margin-bottom: 530px;
+	padding-top: 150px;
+	padding-bottom: 80px;
+	font-size: 16px;
+	letter-spacing: 0.05em;
+    background-color: #5e7a8f;
+}
+
+#products .container {
+	max-width: 920px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+#products h3 {
+    color: #5e7a8f;
+	font-size: 18px;
+	padding: 10px;
+	text-align: center;
+	border: 2px solid #5e7a8f;
+    margin-bottom: 20px;    
+}
+#products h3 br {
+	display: none;
+}
+#products .box {
+	margin-bottom: 30px;
+}
+
+#products li {
+    color: #5e7a8f;
+	text-align: center;
+	line-height: 2em;
+}
+#products .row {
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+#products .row:last-child { margin-bottom: 0;}
+#products .left {
+	width: 400px;
+	float: left;
+}
+#products .right {
+	width: 400px;
+	float: right;
+}
+/*お問い合わせ
+-----------------------------*/
+#contact {
+    position: relative;
+	overflow: hidden;
+    margin-top: -530px;
+	padding-top: 150px;
+	padding-bottom: 80px;
+    color: #FFF;
+    background-color: #fff;
+}
+#contact h3 {
+	width: 330px;
+	margin: 0 auto;
+    text-align: center;
+	border: 2px solid #FFF;
+	font-size: 18px;
+	padding: 10px;
+	margin-bottom: 60px;
+}
+#contact .tel {
+    text-align: center;
+	font-size: 24px;
+	line-height: 1.6;
+}
+#contact .tel a {
+	color: #FFF;
+	font-weight: bold;
+}
+#contact .box {
+	margin-bottom: 80px;
+}
+#contactForm {
+	max-width: 800px;
+	font-size: 16px;
+	margin: 0 auto;
+}
+#contactForm dt {
+	margin-bottom: 10px;
+}
+#contactForm dd {
+	margin-bottom: 20px;
+}
+
+input[type="text"],
+textarea {
+	font-size: 17px;
+	padding: 8px;
+}
+
+input[type="text"]{
+	font-size: 14px;
+	padding: 10px 5px;
+	box-sizing: border-box;
+	border: 0;
+}
+input[type="text"]:focus {
+	background: #ffffee;
+	outline: 0;
+}
+textarea {
+	font-size: 14px;
+	padding: 4px 5px;
+	box-sizing: border-box;
+	border: 0;
+}
+
+textarea:focus {
+	outline: 0;
+}
+input.short {
+	width: 40%;
+}
+
+input.long,
+textarea.long {
+	width: 100%;
+}
+
+input.medium {
+	width: 80%;
+}
+
+input[type="submit"] {
+	font-size: 18px;
+	min-width: 330px;
+	color: #FFF;
+	background: #000;
+	color: #FFF;
+	border: 1px solid #000;
+	display: inline-block;
+	padding: 10px 20px;
+	cursor: pointer;
+	-webkit-transition: all .25s linear;
+	   -moz-transition: all .25s linear;
+	    -ms-transition: all .25s linear;
+	     -o-transition: all .25s linear;
+	        transition: all .25s linear;
+}
+
+input[type="submit"]:hover {
+	color: #000;
+	background: #FFF;
+	color: #000;
+}
+
+label.error {
+	font-size: 12px;
+	color: #000;
+	background: #ffff00;
+	display: inline-block;
+	padding: 3px 10px;
+	position: relative;
+	top: 10px;
+	margin-bottom: 10px;
+}
+label.error:before {
+	content: "";
+	width: 0;
+	height: 0;
+	border: 5px solid transparent;
+	border-bottom: 5px solid #ffff00;
+	position: absolute;
+	top: -10px;
+	left: 10px;
+}
+/*info
+-----------------------------*/
+
+#info {
+	position: relative;
+	overflow: hidden;
+    background-color: #000;
+	color: #FFF;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	line-height: 2em;
+	text-align: center;
+}
+#ft_emblem {
+	max-width: 60px;
+	height: auto;
+	display: block;
+	margin: 0 auto 20px auto;
+}
+#ft_logo {
+	max-width: 180px;
+	display: block;
+	margin: 0 auto 20px auto;
+}
+/*info
+-----------------------------*/
+#footer {
+	width: 100%;
+	letter-spacing: 0.1em;
+	font-size: 10px;
+	line-height: 60px;
+	color: #FFF;
+	text-align: center;
+	background: #000;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
+/* 	Map
+-----------------------------*/
+#info {
+    box-shadow:0px 1px 3px -1px #000;
+    -moz-box-shadow:0px 1px 3px -1px #000;
+    -webkit-box-shadow:0px 1px 3px -1px #000;
+    }
+    
+    #map {
+        width: 100%;
+        height: 450px;
+    }
+
+/* 	slideinright背景青
+-----------------------------*/
+
+#corporate .bg{
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+  }
+#corporate  .bg-wrap {
+    position: relative;
+    display: inline-block;
+    margin-top: -6px;
+    height: 80px;
+    width: 1440px;
+    animation: bg .5s linear;
+  }
+#corporate .bg.is-animated .bg-wrap::before {
+    animation: bg .5s linear;
+    background:#5e7a8f;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-origin: right center;
+  }
+      
+@keyframes bg {
+    0% {
+          opacity: 0;
+          transform: translateX(100%);
+        }
+    100% {
+          transform: translateX(0);
+        }
+      }
+
+#maker .bg{
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+  }
+#maker  .bg-wrap {
+    position: relative;
+    display: inline-block;
+    margin-top: -6px;
+    height: 80px;
+    width: 1440px;
+    animation: bg .5s linear;
+  }
+#maker .bg.is-animated .bg-wrap::before {
+    animation: bg .5s linear;
+    background:#5e7a8f;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-origin: right center;
+  }
+      
+@keyframes bg {
+    0% {
+          opacity: 0;
+          transform: translateX(100%);
+        }
+    100% {
+          transform: translateX(0);
+        }
+      }
+#contact .bg{
+        position: absolute;
+        display: inline-block;
+        top: 0;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+      }
+#contact  .bg-wrap {
+        position: relative;
+        display: inline-block;
+        margin-top: -6px;
+        height: 80px;
+        width: 1440px;
+        animation: bg .5s linear;
+      }
+#contact .bg.is-animated .bg-wrap::before {
+        animation: bg .5s linear;
+        background:#5e7a8f;
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        transform-origin: right center;
+      }
+
+/* 	slideinright背景白
+-----------------------------*/
+
+#compliance .bg{
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+  }
+#compliance  .bg-wrap {
+    position: relative;
+    display: inline-block;
+    margin-top: -6px;
+    height: 80px;
+    width: 1440px;
+    animation: bg .5s linear;
+  }
+#compliance .bg.is-animated .bg-wrap::before {
+    animation: bg .5s linear;
+    background:#fff;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-origin: right center;
+  }
+      
+@keyframes bg {
+    0% {
+          opacity: 0;
+          transform: translateX(100%);
+        }
+    100% {
+          transform: translateX(0);
+          transition: all 1.0s;
+        }
+      }
+
+#products .bg{
+        position: absolute;
+        display: inline-block;
+        top: 0;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+      }
+#products  .bg-wrap {
+        position: relative;
+        display: inline-block;
+        margin-top: -6px;
+        height: 80px;
+        width: 1440px;
+        animation: bg .5s linear;
+      }
+#products .bg.is-animated .bg-wrap::before {
+        animation: bg .5s linear;
+        background:#fff;
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        transform-origin: right center;
+      }
