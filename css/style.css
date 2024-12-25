@@ -855,178 +855,98 @@ label.error:before {
         height: 450px;
     }
 
-/* 	slideinright背景青
+
+/* 	
 -----------------------------*/
+#corporate {
+	background: #FFF;
+}
 
-#corporate .bg{
-    position: absolute;
-    display: inline-block;
-    top: 0;
-    margin: 0;
-    height: 100%;
-    width: 100%;
-  }
-#corporate  .bg-wrap {
-    position: relative;
-    display: inline-block;
-    margin-top: -6px;
-    height: 80px;
-    width: 1440px;
-    animation: bg .5s linear;
-  }
-#corporate .bg.is-animated .bg-wrap::before {
-    animation: bg .5s linear;
-    background:#5e7a8f;
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    transform-origin: right center;
-  }
-      
-@keyframes bg {
+
+/*#corporate .back_border span,*/
+#contact .back_border span,
+#maker .back_border span,
+#corporate .back_border span {
+	background: #5e7a8f;
+}
+/*#corporate .back_border span,*/
+/*#corporate .back_border span,*/
+#products .back_border span,
+#compliance .back_border span {
+	background: #FFF;
+}
+
+#info .back_border span {
+	background: #000;
+}
+
+.back_border {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+.back_border span {
+	margin-bottom: 0px;
+	display: block;
+}
+
+@-webkit-keyframes slideInRight {
     0% {
-          opacity: 0;
-          transform: translateX(100%);
-        }
+      opacity: 0;
+      -webkit-transform: translateX(2000px);
+      transform: translateX(2000px);
+    }
+  
     100% {
-          transform: translateX(0);
-        }
-      }
-
-#maker .bg{
-    position: absolute;
-    display: inline-block;
-    top: 0;
-    margin: 0;
-    height: 100%;
-    width: 100%;
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+    }
   }
-#maker  .bg-wrap {
-    position: relative;
-    display: inline-block;
-    margin-top: -6px;
-    height: 80px;
-    width: 1440px;
-    animation: bg .5s linear;
-  }
-#maker .bg.is-animated .bg-wrap::before {
-    animation: bg .5s linear;
-    background:#5e7a8f;
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    transform-origin: right center;
-  }
-      
-@keyframes bg {
+  
+  @keyframes slideInRight {
     0% {
-          opacity: 0;
-          transform: translateX(100%);
-        }
+      opacity: 0;
+      -webkit-transform: translateX(2000px);
+      -ms-transform: translateX(2000px);
+      transform: translateX(2000px);
+    }
+  
     100% {
-          transform: translateX(0);
-        }
-      }
-#contact .bg{
-        position: absolute;
-        display: inline-block;
-        top: 0;
-        margin: 0;
-        height: 100%;
-        width: 100%;
-      }
-#contact  .bg-wrap {
-        position: relative;
-        display: inline-block;
-        margin-top: -6px;
-        height: 80px;
-        width: 1440px;
-        animation: bg .5s linear;
-      }
-#contact .bg.is-animated .bg-wrap::before {
-        animation: bg .5s linear;
-        background:#5e7a8f;
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        transform-origin: right center;
-      }
-
-/* 	slideinright背景白
------------------------------*/
-
-#compliance .bg{
-    position: absolute;
-    display: inline-block;
-    top: 0;
-    margin: 0;
-    height: 100%;
-    width: 100%;
+      -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+      transform: translateX(0);
+    }
   }
-#compliance  .bg-wrap {
-    position: relative;
-    display: inline-block;
-    margin-top: -6px;
-    height: 80px;
-    width: 1440px;
-    animation: bg .5s linear;
+  
+  .slideInRight {
+    -webkit-animation-name: slideInRight;
+    animation-name: slideInRight;
   }
-#compliance .bg.is-animated .bg-wrap::before {
-    animation: bg .5s linear;
-    background:#fff;
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    transform-origin: right center;
-  }
-      
-@keyframes bg {
-    0% {
-          opacity: 0;
-          transform: translateX(100%);
-        }
-    100% {
-          transform: translateX(0);
-          transition: all 1.0s;
-        }
-      }
 
-#products .bg{
-        position: absolute;
-        display: inline-block;
-        top: 0;
-        margin: 0;
-        height: 100%;
-        width: 100%;
-      }
-#products  .bg-wrap {
-        position: relative;
-        display: inline-block;
-        margin-top: -6px;
-        height: 80px;
-        width: 1440px;
-        animation: bg .5s linear;
-      }
-#products .bg.is-animated .bg-wrap::before {
-        animation: bg .5s linear;
-        background:#fff;
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        transform-origin: right center;
-      }
+
+/* アニメーションのためのCSS */
+.wow {
+  visibility: hidden;
+}
+
+/* スライドインのアニメーション */
+@keyframes slideInRightCustom {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* WOW.jsのスライドインエフェクト */
+.wow.slideInRight {
+  animation-name: slideInRightCustom;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
